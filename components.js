@@ -7,7 +7,7 @@ export class TrackListContainer extends Component {
       tracks: []
     };
     this.addItem = this.addItem.bind(this);
-  }
+  }  
 
   addItem(name){
   	 this.setState({
