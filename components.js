@@ -13,7 +13,7 @@ export class TrackListContainer extends Component {
   	 this.setState({
       tracks: [].concat(this.state.tracks).concat([name])
     });
-  }
+  }   
 
   render() {
     return (
